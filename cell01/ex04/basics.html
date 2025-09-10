@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basics</title>
+    <style>
+      body {
+        background-color: pink; /* สีพื้นตามโจทย์ */
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: white;          /* ตัวอักษรสีขาว */
+        text-align: center;    /* จัดกลาง */
+        font-size: 60px;       /* ตัวใหญ่ */
+      }
+      .shops {
+        display: flex;         /* จัดรูปภาพให้อยู่ข้างกัน */
+        justify-content: center;
+        margin-top: 30px;
+        gap: 50px;             /* เว้นระยะห่างระหว่างรูป */
+      }
+      .shop {
+        text-align: center;    /* จัดข้อความใต้รูปให้อยู่กลาง */
+      }
+      hr {
+        margin-top: 40px;
+        border: 1px solid black;
+      }
+      footer {
+        text-align: right;     /* จัดข้อความด้านขวา */
+        font-style: italic;    /* ตัวเอียง */
+        font-family: monospace; /* ฟอนต์ monospace */
+        margin-top: 10px;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Basics! &lt;3</h1> <!-- มี special character <3 -->
+    
+    <div class="shops">
+      <div class="shop">
+        <img src="shop1.jpg" alt="Shop 1" width="200">
+        <div><a href="https://www.amazon.com" target="_blank">Amazon</a></div>
+      </div>
+      <div class="shop">
+        <img src="shop2.jpg" alt="Shop 2" width="200">
+        <div><a href="https://www.ebay.com" target="_blank">eBay</a></div>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      © yourlogin 2025
+    </footer>
+  </body>
+</html>
